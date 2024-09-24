@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Project_imgs/Cricket_ground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    /* border: 2px solid black; */
+    width: 65%;
+    height: 700px;
+    background-color: gray;
+    border-radius: 15px;
+    background-color: rgba(23, 15, 15, 0.6);
+    backdrop-filter: blur(0.9rem);
+}
+
+.box h1 {
+    text-align: center;
+    color: white;
+    font-size: 42px;
+    margin-top: 3rem;
+    text-shadow: 2px 2px red;
+
+}
+
+.box form {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 3rem;
+}
+
+.box form input {
+    width: 200px;
+    height: 35px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.box form input::placeholder {
+    font-size: 18px;
+}
+
+.box form select {
+    width: 200px;
+    height: 35px;
+    padding: 5px 10px;
+    border-radius: 8px;
+
+}
+
+.box select#countries {
+    font-size: 18px;
+}
+
+#add button {
+    width: 150px;
+    height: 45px;
+    border-radius: 18px;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    margin-top: 4rem;
+    background-color: green;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.box hr {
+    margin-top: 3rem;
+    box-shadow: 0px 3px 5px 2px #c6cda48f;
+}
+#table{
+    width: 1000px;
+    height: 340px;
+    margin: auto;
+    margin-top: 1rem;
+    overflow: scroll;
+   /* text-align: center; */
+}
+#table span{
+    margin: 10px 30px;
+    color: #fff;
+}
+#table tr{
+    /* margin: 2rem 0; */
+    display: flex;
+    margin: 30px 0;
+}
+#table td{
+    width: 60px;
+    margin: 0px 28px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    align-content: center;
+
+}
+
+#table tr button{
+height: 30px;
+width: 80px;
+border-radius: 15px;
+background-color: green;
+color: #fff;
+margin: 0 20px;
+}
+
+#show_items{
+    width: 100%;
+}
+table#show_result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
