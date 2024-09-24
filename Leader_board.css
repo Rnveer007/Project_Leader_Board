@@ -17,8 +17,8 @@
 
 .box {
     /* border: 2px solid black; */
-    width: 65%;
-    height: 700px;
+    width: 50%;
+    height: 600px;
     background-color: gray;
     border-radius: 15px;
     background-color: rgba(23, 15, 15, 0.6);
@@ -42,7 +42,7 @@
 }
 
 .box form input {
-    width: 200px;
+    width: 150px;
     height: 35px;
     padding: 5px 15px;
     border-radius: 8px;
@@ -85,8 +85,8 @@
     box-shadow: 0px 3px 5px 2px #c6cda48f;
 }
 #table{
-    width: 1000px;
-    height: 340px;
+    width: 840px;
+    height: 250px;
     margin: auto;
     margin-top: 1rem;
     overflow: scroll;
@@ -102,7 +102,7 @@
     margin: 30px 0;
 }
 #table td{
-    width: 60px;
+    width: 50px;
     margin: 0px 28px;
     padding: 0 10px;
     color: #fff;
