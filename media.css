@@ -1,0 +1,38 @@
+
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+    .container {
+        padding: 40px;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    input, select {
+        flex: 1;
+        min-width: 150px; /* Minimum width for inputs */
+    }
+    .box select#countries {
+        font-size: 14px;
+    }
+        .box form input::placeholder {
+        font-size: 14px;
+    }
+
+    #show_result {
+        font-size: 1rem;
+    }
+
+    button {
+        width: auto; /* Adjust button width */
+        margin-top: 0; /* Remove margin top for buttons in form */
+    }
+}

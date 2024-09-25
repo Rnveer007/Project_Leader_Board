@@ -51,7 +51,7 @@
 }
 
 .box form input::placeholder {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .box form select {
@@ -59,11 +59,12 @@
     height: 35px;
     padding: 5px 10px;
     border-radius: 8px;
+    cursor: pointer;
 
 }
 
 .box select#countries {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #add button {
@@ -77,6 +78,7 @@
     background-color: green;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
